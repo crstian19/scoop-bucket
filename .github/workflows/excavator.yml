@@ -1,7 +1,7 @@
 name: Excavator
 
-# Checks every day for a new Herakleo release and updates the manifest
-# (version, URL and hash from the release's SHA256SUMS).
+# Checks every day for new releases of the apps here and updates their
+# manifests (version, URL and hash).
 on:
   schedule:
     - cron: "20 6 * * *"
